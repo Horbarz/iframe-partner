@@ -1,7 +1,7 @@
 function openMarketplace() {
   const overlay = document.getElementById('marketplace-overlay');
   const iframe = document.getElementById('rayda-iframe');
-  if (!iframe.src) {
+  if (iframe.src !== iframe.dataset.src) {
     iframe.src = iframe.dataset.src;
   }
   overlay.classList.add('active');
