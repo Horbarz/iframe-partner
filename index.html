@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ByteForge — Tech Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">Byte<span>Forge</span></a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#topics">Topics</a>
+        <a href="#latest">Articles</a>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#newsletter" class="btn btn-primary">Subscribe Free</a>
+      </nav>
+      <button class="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-badge">Trusted by 50,000+ developers</div>
+      <h1>Where Developers Come to<br /><span class="gradient-text">Think Deeper</span></h1>
+      <p class="hero-sub">Practical articles on software engineering, AI, cloud architecture, and the tools shaping modern tech — written by engineers, for engineers.</p>
+      <div class="hero-actions">
+        <a href="#newsletter" class="btn btn-primary btn-lg">Start Reading Free</a>
+        <a href="#latest" class="btn btn-ghost btn-lg">Browse Articles</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>200+</strong><span>Articles</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>50k</strong><span>Readers</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>Weekly</strong><span>Newsletter</span></div>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <!-- Features -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Why ByteForge</p>
+        <h2>Content engineered for clarity</h2>
+        <p class="section-sub">No fluff, no clickbait — just deeply researched articles that respect your time.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#9881;</div>
+          <h3>Deep Dives</h3>
+          <p>Long-form technical breakdowns that go beyond surface-level summaries and actually explain the why.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9889;</div>
+          <h3>Weekly Picks</h3>
+          <p>Curated links, tools, and papers delivered every Tuesday — the best of the web in under 5 minutes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128161;</div>
+          <h3>Practical Tutorials</h3>
+          <p>Step-by-step guides with real code you can run today, not toy examples that never survive production.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#127757;</div>
+          <h3>Industry Trends</h3>
+          <p>Thoughtful analysis of where the industry is heading and what it means for your career and stack.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics -->
+  <section class="topics section" id="topics">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Explore</p>
+        <h2>Topics we cover</h2>
+      </div>
+      <div class="topics-grid">
+        <a href="#" class="topic-pill">AI &amp; Machine Learning</a>
+        <a href="#" class="topic-pill">System Design</a>
+        <a href="#" class="topic-pill">Cloud &amp; DevOps</a>
+        <a href="#" class="topic-pill">Web Development</a>
+        <a href="#" class="topic-pill">Open Source</a>
+        <a href="#" class="topic-pill">Security</a>
+        <a href="#" class="topic-pill">Developer Tools</a>
+        <a href="#" class="topic-pill">Career &amp; Growth</a>
+        <a href="#" class="topic-pill">Data Engineering</a>
+        <a href="#" class="topic-pill">Programming Languages</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section class="latest section" id="latest">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Latest</p>
+        <h2>Fresh off the press</h2>
+      </div>
+      <div class="articles-grid">
+        <article class="article-card featured">
+          <div class="article-tag">AI</div>
+          <h3>Building Production-Ready RAG Pipelines: Lessons from 6 Months of Failures</h3>
+          <p>We built, broke, and rebuilt a retrieval-augmented generation system. Here's everything we learned the hard way.</p>
+          <div class="article-meta">
+            <img src="https://i.pravatar.cc/32?img=1" alt="Author" class="avatar" />
+            <span>Sarah Chen</span>
+            <span class="dot">·</span>
+            <span>12 min read</span>
+          </div>
+        </article>
+        <article class="article-card">
+          <div class="article-tag">System Design</div>
+          <h3>Rate Limiting at Scale: How We Serve 10M Requests/Day</h3>
+          <p>A walkthrough of the sliding window algorithm and why we ditched Redis for our own solution.</p>
+          <div class="article-meta">
+            <img src="https://i.pravatar.cc/32?img=5" alt="Author" class="avatar" />
+            <span>Marcus Reid</span>
+            <span class="dot">·</span>
+            <span>8 min read</span>
+          </div>
+        </article>
+        <article class="article-card">
+          <div class="article-tag">DevOps</div>
+          <h3>Stop Writing Kubernetes YAML by Hand</h3>
+          <p>Tools and patterns that bring sanity back to cloud-native configuration management in 2024.</p>
+          <div class="article-meta">
+            <img src="https://i.pravatar.cc/32?img=9" alt="Author" class="avatar" />
+            <span>Priya Nair</span>
+            <span class="dot">·</span>
+            <span>6 min read</span>
+          </div>
+        </article>
+      </div>
+      <div class="articles-cta">
+        <a href="#" class="btn btn-outline">View All Articles &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marketplace -->
+  <section class="marketplace section" id="marketplace">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Powered by Rayda</p>
+        <h2>Device Marketplace</h2>
+        <p class="section-sub">Need a new device to stay productive? Browse and purchase verified tech hardware directly — without leaving the ByteForge ecosystem.</p>
+      </div>
+      <div class="marketplace-card">
+        <div class="marketplace-left">
+          <div class="marketplace-icon">&#128187;</div>
+          <h3>Shop Verified Devices</h3>
+          <p>From laptops and monitors to peripherals and accessories — find the right hardware at competitive prices, curated for developers and tech professionals.</p>
+          <ul class="marketplace-perks">
+            <li>&#10003; Verified device listings</li>
+            <li>&#10003; Flexible payment options</li>
+            <li>&#10003; Fast delivery & support</li>
+            <li>&#10003; Exclusive reader discounts</li>
+          </ul>
+          <button class="btn btn-primary btn-lg marketplace-open-btn" onclick="openMarketplace()">
+            Open Marketplace &rarr;
+          </button>
+        </div>
+        <div class="marketplace-right">
+          <div class="marketplace-preview">
+            <div class="preview-bar">
+              <span class="preview-dot red"></span>
+              <span class="preview-dot yellow"></span>
+              <span class="preview-dot green"></span>
+              <span class="preview-url">dev-partner.rayda.co</span>
+            </div>
+            <div class="preview-body">
+              <div class="preview-shimmer"></div>
+              <div class="preview-shimmer short"></div>
+              <div class="preview-grid">
+                <div class="preview-item"></div>
+                <div class="preview-item"></div>
+                <div class="preview-item"></div>
+                <div class="preview-item"></div>
+              </div>
+            </div>
+            <button class="preview-launch" onclick="openMarketplace()">Launch Marketplace</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rayda Marketplace Modal -->
+  <div class="marketplace-overlay" id="marketplace-overlay" onclick="closeMarketplaceOnBackdrop(event)">
+    <button class="marketplace-close" onclick="closeMarketplace()" aria-label="Close marketplace">&times;</button>
+    <iframe
+      id="rayda-iframe"
+      src=""
+      data-src="https://dev-partner.rayda.co/marketplace/onboarding?allow=U2FsdGVkX18zLFVFmoZfLwa9%2BubW9UKyF9slnap7tBf7C4l%2FuM8WxauNmkL9eVJr%2Ba5f2Asl%2FfQnz010SmYIqN%2F1ADrOt3UaZt20isDuxqpybrYpi9c7LQV7VVpbz%2FKjqoFzQgHp0Vctju%2FCBEZ77zSPtk1jMFafCCpPnb8Ctxo%3D&environment=live"
+      frameborder="0"
+      style="width:100%;height:100%;border:none;"
+      title="Rayda Device Marketplace"
+      allow="payment"
+    ></iframe>
+  </div>
+
+  <!-- Newsletter -->
+  <section class="newsletter section" id="newsletter">
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="newsletter-text">
+          <p class="section-label">Newsletter</p>
+          <h2>Get smarter every Tuesday</h2>
+          <p>Join 50,000 developers who start their week with ByteForge. One email. No spam. Unsubscribe anytime.</p>
+        </div>
+        <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+          <div class="form-row">
+            <input type="email" placeholder="you@example.com" required class="email-input" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          <p class="form-note">Free forever. No credit card required.</p>
+          <div class="success-msg" id="success-msg">Thanks! You're on the list. Check your inbox.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">Byte<span>Forge</span></a>
+        <p>Making great tech content accessible to every developer.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Content</h4>
+          <a href="#">Articles</a>
+          <a href="#">Tutorials</a>
+          <a href="#">Newsletter</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Write for Us</a>
+          <a href="#">Advertise</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">RSS</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ByteForge. Built with curiosity.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
