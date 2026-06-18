@@ -202,13 +202,19 @@
   <div class="marketplace-overlay" id="marketplace-overlay" onclick="closeMarketplaceOnBackdrop(event)">
     <button class="marketplace-close" onclick="closeMarketplace()" aria-label="Close marketplace">&times;</button>
     <iframe
-      id="rayda-iframe"
-      src=""
-      data-src="https://dev-partner.rayda.co/marketplace/onboarding?allow=U2FsdGVkX18zLFVFmoZfLwa9%2BubW9UKyF9slnap7tBf7C4l%2FuM8WxauNmkL9eVJr%2Ba5f2Asl%2FfQnz010SmYIqN%2F1ADrOt3UaZt20isDuxqpybrYpi9c7LQV7VVpbz%2FKjqoFzQgHp0Vctju%2FCBEZ77zSPtk1jMFafCCpPnb8Ctxo%3D&environment=live"
+      src="https://sandbox-partner.rayda.co/marketplace/onboarding?allow=U2FsdGVkX1%2BkZt3xD4vW4GGGhDAJFLmy9zm5%2BqjxJhuW%2Fxh0XydPFfFr1g%2B4e6cd275tnObsUmw9VnDymFC0YA23CFaldVHlcYdWqtJLpqtQPqaTljdjD8YCxFBEk0MFjqbSgUaktz3XPqW6gVUOZ6QYgFFsAKgM4COGLd5R2QI%3D&environment=live"
       frameborder="0"
-      style="width:100%;height:100%;border:none;"
-      title="Rayda Device Marketplace"
-      allow="payment"
+      style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      margin: 0;
+      padding: 0;
+      z-index: 9999;
+    "
     ></iframe>
   </div>
 
